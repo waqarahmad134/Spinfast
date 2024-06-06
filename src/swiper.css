@@ -1,0 +1,63 @@
+.swiper-button-prev {
+    position: absolute !important;
+    top: 94% !important;
+    left: 50% !important;
+    transform: translateX(-120%);
+    font-size: 24px !important;
+    font-weight: 900 !important;
+    color: #00D8CF !important;
+    background: white;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0) !important;
+    padding-bottom: 4px;
+}
+
+
+.swiper-button-next {
+    position: absolute !important;
+    top: 94% !important;
+    left: 50% !important;
+    font-size: 24px !important;
+    font-weight: 900 !important;
+    color: #00D8CF !important;
+    background: white;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0) !important;
+    padding-bottom: 4px;
+}
+
+.swiper-button-prev:after {
+    content: '\2190' !important;
+    color: #00D8CF !important;
+    font-size: 20px !important;
+    font-weight: 900 !important;
+}
+
+.swiper-button-next:after {
+    content: '\2192' !important;
+    color: #00D8CF !important;
+    font-size: 20px !important;
+    font-weight: 900 !important;
+}
+
+.swiper-button-next:hover::after {
+    color: white !important;
+}
+
+.swiper-button-prev:hover::after {
+    color: white !important;
+}
+
+.swiper-button-next:hover {
+    transition: 0.3s ease all;
+    background-color: #00D8CF !important;
+}
+
+.swiper-button-prev:hover {
+    transition: 0.3s ease all;
+    background-color: #00D8CF !important;
+}

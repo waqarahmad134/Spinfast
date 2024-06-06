@@ -1,0 +1,11 @@
+.card:hover.card>div>div>div>button {
+    background-color: #00D8CF;
+    transform: 0.4s ease all;
+}
+
+@media (max-width: 1024px) {
+    #map{
+        width: 91% !important;
+        height: 350px !important;
+    }
+}
