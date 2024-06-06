@@ -4,7 +4,7 @@ import { GoogleMap, useLoadScript, MarkerF } from "@react-google-maps/api";
 export default function Map() {
   const [libraries] = useState(["places"]);
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyCYC3-gTg2XJFIeo9fura6PoNuQzzPeBlc",
+    googleMapsApiKey: "Map.key",
     libraries,
   });
   const [selected, setSelected] = useState({ lat: "", lng: "" });
